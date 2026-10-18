@@ -1,5 +1,3 @@
-# Quantum Memory with Circuit Builder
-
 ```{code-cell} ipython3
 # This file contains information which is proprietary to Riverlane Ltd
 # ("Riverlane") and is Riverlane Confidential Information.

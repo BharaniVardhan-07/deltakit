@@ -5,7 +5,7 @@ permissions:
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '0 0 * * *' # Runs at midnight UTC every day
   pull_request:
     types: [opened, synchronize, reopened]
 
@@ -38,7 +38,7 @@ jobs:
         run: uv run --no-sync sphinx-build -W -D nb_execution_mode=off -b linkcheck docs docs/_build/linkcheck
 
   build-docs:
-    needs: [check-deltakit-token]
+    needs: [check-deltakit-token, check-documentation-links, check-notebooks-execution]
     runs-on: ubuntu-latest
     env:
       NB_EXECUTION_MODE: ${{ needs.check-deltakit-token.outputs.exists == 'true' && 'force' || 'off' }}
