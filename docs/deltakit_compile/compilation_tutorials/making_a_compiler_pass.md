@@ -17,7 +17,7 @@ This tutorial will describe how to make a simple xDSL pass that replaces measure
 This pass will operate on our `stim` dialect so first we'll familiarise ourselves with the `stim` dialect operations and how they map to and from Deltakit stim circuits:
 
 ```{code-cell} ipython3
-# This file contains information which is proprietary to Riverlane Ltd
+
 # ("Riverlane") and is Riverlane Confidential Information.
 # (c) Copyright Riverlane 2025-2026. All rights reserved.
 from deltakit_stim import Circuit

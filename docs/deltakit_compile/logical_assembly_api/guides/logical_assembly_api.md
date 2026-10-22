@@ -18,7 +18,7 @@ Logical assembly (LogASM) is a Python-based Domain Specific Language (DSL) for d
 LogASM is designed to make QEC accessible to the type of user who wants to experiment with high level QEC concepts without needing deep QEC knowledge. For the more experienced, it streamlines the construction of larger and more complex experiments. For those looking for the Circuit Builder API, see [`circuit_builder_api.ipynb`](../../circuit_builder_api/guides/circuit_builder_api.ipynb).
 
 ```{code-cell} ipython3
-# This file contains information which is proprietary to Riverlane Ltd
+
 # ("Riverlane") and is Riverlane Confidential Information.
 # (c) Copyright Riverlane 2025-2026. All rights reserved.
 

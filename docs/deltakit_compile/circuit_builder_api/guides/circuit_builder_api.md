@@ -20,7 +20,7 @@ The Circuit Builder is designed for QEC experts, offering features such as autom
 While it shares infrastructure with the higher-level Logical Assembly API (to learn more about LogASM, see [`logical_assembly_api.ipynb`](../../logical_assembly_api/guides/logical_assembly_api.ipynb)), Circuit Builder offers considerably more freedom in physical circuit design with the caveat that it provides fewer guarantees on the validity of the output.
 
 ```{code-cell} ipython3
-# This file contains information which is proprietary to Riverlane Ltd
+
 # ("Riverlane") and is Riverlane Confidential Information.
 # (c) Copyright Riverlane 2025-2026. All rights reserved.
 
